@@ -1,0 +1,229 @@
+/* global view */
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #F2E1C1;
+}
+
+a {
+    color: #454545;
+}
+
+.my-font {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.my-justify-text {
+    text-align: justify;
+}
+
+.my-left-line {
+    border-left: 1px solid #454545;
+    padding-left: 15px;
+}
+
+.my-bottom-line {
+    border-top: 1px solid #454545;
+    margin-top: 15px;
+}
+
+/* header menu */
+#header-section {
+    background-color: orange;
+}
+
+.navbar-brand .my-font {
+    color: #454545;
+}
+
+/* ul */
+.custom-ml-auto {
+    margin-left: auto !important;
+}
+
+/* li */
+.nav-item .nav-link {
+    color: #454545;
+
+}
+
+.nav-item .nav-link:hover {
+    color: #FFE6C7;
+}
+
+/* hero-menu */
+#hero-section {
+    padding-top: 45px;
+}
+
+/* gradient background */
+.gradient-background {
+    background: linear-gradient(50deg, #d8caae, #e7d3a7);
+}
+
+/* button */
+.my-btn-color {
+    background-color: #454545;
+    color: #FFE6C7;
+}
+
+.my-btn-color:hover {
+    color: #454545;
+    background-color: #FFE6C7;
+}
+
+.my-btn-outline {
+    color: #454545;
+    background-color: #F9CB64;
+    border-color: white;
+}
+
+.my-btn-outline:hover {
+    color: #454545;
+    background-color: #FFE6C7;
+    border-color: white;
+}
+
+/* about menu */
+#about-section {
+    padding: 20px 0;
+}
+
+.profile {
+    background-color: #F9CB64;
+    border-radius: 200px;
+    box-shadow: 3px 5px 10px #454545;
+}
+
+.profile:hover {
+    opacity: .8;
+}
+
+/* experience menu */
+#experience-section {
+    padding: 20px 0;
+    background-color: #E8D4B4;
+}
+
+/* education menu */
+#education-section {
+    padding: 20px 0;
+}
+
+/* skill menu */
+#skill-section {
+    padding: 20px 0;
+    background-color: #E8D4B4;
+}
+
+.skill-professional,
+.skill-tools {
+    border-right: 1px solid #454545;
+    padding-right: 15px;
+}
+
+.skill-tools {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-languages {
+    margin-bottom: 30px;
+}
+
+/* interest menu */
+#interest-section {
+    padding: 20px 0;
+}
+
+/* award menu */
+#award-section {
+    padding: 20px 0;
+    background-color: #E8D4B4;
+}
+
+.modal {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-color .modal-content {
+    background-color: #E8D4B4;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 2px solid #454545;
+    width: 100%;
+}
+
+.modal-body {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    border-top: 2px solid #454545;
+    width: 100%;
+}
+
+/* footer menu */
+/* contact */
+#contact-section {
+    padding: 20px 0 10px;
+    background-color: #F0A500;
+}
+
+.contact-text {
+    color: #FCF1F1;
+}
+
+.get-contact a {
+    color: #FCF1F1;
+}
+
+/* motivation image */
+.carousel-container {
+    max-width: 300px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* prev and next buttons */
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: orange;
+}
+
+/* copyright */
+#footer-section {
+    background-color: #454545;
+}
+
+.footer-text p {
+    margin: 0;
+    color: #FCF1F1;
+    font-size: 14px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    .my-left-line {
+        border-left: none;
+    }
+
+    /* skill menu */
+    .skill-professional,
+    .skill-tools {
+        border-right: none;
+        padding-right: 0;
+    }
+}
