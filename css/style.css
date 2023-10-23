@@ -36,11 +36,6 @@ a {
     color: #454545;
 }
 
-/* ul */
-.custom-ml-auto {
-    margin-left: auto !important;
-}
-
 /* li */
 .nav-item .nav-link {
     color: #454545;
